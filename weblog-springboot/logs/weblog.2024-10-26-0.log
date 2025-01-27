@@ -1,0 +1,25 @@
+2024-10-26 20:12:28.395 [main] INFO  com.kathy.weblog.web.WeblogWebApplicationTests - Starting WeblogWebApplicationTests using Java 1.8.0_341 on Kessie with PID 6184 (started by 王康欣Kessie in D:\Code\weblog\weblog-springboot\weblog-web)
+2024-10-26 20:12:28.396 [main] INFO  com.kathy.weblog.web.WeblogWebApplicationTests - The following profiles are active: prod
+2024-10-26 20:12:29.240 [main] INFO  com.kathy.weblog.web.WeblogWebApplicationTests - Started WeblogWebApplicationTests in 1.159 seconds (JVM running for 1.928)
+2024-10-26 20:12:29.367 [main] INFO  com.kathy.weblog.web.WeblogWebApplicationTests - 这是一行 Info 级别日志
+2024-10-26 20:12:29.368 [main] WARN  com.kathy.weblog.web.WeblogWebApplicationTests - 这是一行 Warn 级别日志
+2024-10-26 20:12:29.368 [main] ERROR com.kathy.weblog.web.WeblogWebApplicationTests - 这是一行 Error 级别日志
+2024-10-26 20:12:29.368 [main] INFO  com.kathy.weblog.web.WeblogWebApplicationTests - 这是一行带有占位符日志，作者：王康欣
+[TraceId: ] 2024-10-26 21:16:03.358 [main] INFO  com.kathy.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_341 on Kessie with PID 20124 (D:\Code\weblog\weblog-springboot\weblog-web\target\classes started by 王康欣Kessie in D:\Code\weblog\weblog-springboot)
+[TraceId: ] 2024-10-26 21:16:03.359 [main] INFO  com.kathy.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-10-26 21:16:03.867 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-10-26 21:16:03.867 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[TraceId: ] 2024-10-26 21:16:03.868 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2024-10-26 21:16:03.868 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2024-10-26 21:16:03.870 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[TraceId: ] 2024-10-26 21:16:03.875 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-10-26 21:16:03.875 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-10-26 21:16:03.917 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-10-26 21:16:03.918 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 535 ms
+[TraceId: ] 2024-10-26 21:16:04.122 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-10-26 21:16:04.127 [main] INFO  com.kathy.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.026 seconds (JVM running for 1.947)
+[TraceId: ] 2024-10-26 21:16:06.104 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-10-26 21:16:06.104 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-10-26 21:16:06.105 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 6369314f-1334-4b4e-9cb8-6ca1c818d926] 2024-10-26 21:16:06.207 [http-nio-8080-exec-2] INFO  c.kathy.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 6369314f-1334-4b4e-9cb8-6ca1c818d926] 2024-10-26 21:16:06.215 [http-nio-8080-exec-2] INFO  c.kathy.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 17ms, 出参: {"username":"admin","sex":1} =================================== 

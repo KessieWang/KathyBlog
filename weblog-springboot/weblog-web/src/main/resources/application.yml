@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    # 默认激活 dev 环境
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 10MB # 限制单个上传文件的最大大小为 10MB。如果上传的文件大小超过这个值，将会被拒绝上传。
+      max-request-size: 10MB # 限制整个上传请求的最大大小为 10MB。这包括所有上传文件的大小之和。如果请求总大小超过这个值，将会被拒绝。
+
+jwt:
+  # 签发人
+  issuer: kathy
+  # 秘钥
+  secret: nsQwKRnPkUTE7WkIkGSduNOLunWqs+bhpv6H0+BDnUBfwh/Q3rgffS9lFii2uUsdUojRatPILhXUQHsNkvbReQ==
+  # token 过期时间（单位：分钟） 24*60
+  tokenExpireTime: 1440
+  # token 请求头中的 key 值
+  tokenHeaderKey: Authorization
+  # token 请求头中的 value 值前缀
+  tokenPrefix: Bearer
+
